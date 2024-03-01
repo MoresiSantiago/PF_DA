@@ -95,11 +95,29 @@ Somos una consultora en ciencia de datos que busca ser reconocida por su  seguri
  - Desarrollar un modelo de machine learning con datos de Google Yelp, específicamente de la categoría de bancos para prever y aumentar las ventas en el sector bancario.
 
 ## 4.  Resultados Preliminares del EDA.
+- Análisis Exploratorio de Datos (EDA) aplicado al conjunto de datos. El objetivo principal es mejorar la comprensión de la información contenida en los archivos Parquet relacionados con negocios (business), consejos (tip), usuarios (user).
 
-### Datos
-###### Datos
-###### Datos
-###### Datos
+#### Objetivos del EDA
+- Top 10 Usuarios y Ciudades: Identificar los 10 usuarios y ciudades más activos basándonos en el número de reseñas y la presencia de bancos.
+
+![Texto alternativo](src/grafica_1.jpg)
+
+
+
+    El gráfico muestra los 10 bancos de EE. UU. con más reseñas. El banco con más reseñas es Bank of America Financial Center y el banco  menores reseñas es Navy Federal Credit Union
+
+
+-Análisis de Ciudades: Evaluar la evolución de la incorporación de nuevos usuarios a lo largo del tiempo, analizando la variable 'yelping_since'.
+![Texto alternativo](src/grafica_2.jpg)
+
+    La ciudad con la mayor cantidad de bancos es Tucsoncon con 79 bancos, seguida de  Philadelphia con 73 bancos, Reno con 64 bancos y a partir de  NNew Orleans con las otras ciudades 
+    tienen menos de 30 bancos cada una
+
+    
+-Nube de Palabras: Crear una nube de palabras a partir de los comentarios ('text') en los tips para visualizar términos frecuentes y destacados.
+![Texto alternativo](src/word_cloud.jpg)
+
+     Las palabras más frecuentes se muestran en letras más grandes y las menos frecuentes en letras más pequeñas.
 
 ## 5. Kpi´s con sus objetivos asociados.
 
