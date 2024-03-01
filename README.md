@@ -216,10 +216,12 @@ Considerar la puntuación numérica asociada con cada reseña para ajustar el va
 - Pipenv o Conda para manejar entornos virtuales y dependencias.
 - NLTK y spaCy, para facilitar el procesamiento y análisis de texto.
 
-#### Presentación de Resultados:
+#### Presentación de Resultados e implementación final
 - Power Bi para crear dashboard interactivos.
-- Streamlit o Dash para crear aplicaciones web interactivas para presentar resultados.
-- Matplotlib, Seaborn para visualizaciones más complejas.
+- ReactJS para desarrollar la pagina web
+- Vercel para desplegar la pagina web
+- Render para desplegar la API
+- Github Actions para CI/CD
 
 #### Colaboración y Documentación:
  - Visual Studio Live.
@@ -233,7 +235,7 @@ Considerar la puntuación numérica asociada con cada reseña para ajustar el va
 
 ## 9. Diagrama de Gannt
 
-![Texto alternativo]()
+![Texto alternativo](src/diagrama_gantt.jpg)
 
 <br>
 
@@ -262,17 +264,18 @@ Considerar la puntuación numérica asociada con cada reseña para ajustar el va
 
 <br>
 
-### <u>Mapa de sitio / Arquitectura de la información / Pantallas.</u>
+### <u> Arquitectura Web </u>
 
- - Home.
+- Contexto del proyecto
+- Flujo de trabajo
+- Stack tecnologico
+- Implementaciones en vivo para los sistemas de ubicación y recomendación
+- Team members
+- Contacto
 
- - ¿Quienes somos?
+![Texto alternativo](src/pagina_web.png)
 
- - Lo que nos diferencia.
 
- - Sistema de ubicación de nuevas sucursales Bancarias.
-
- - Sistema de recomendación para los clientes bancarios.
 
 <br>
 
