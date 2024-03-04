@@ -3,3 +3,9 @@
 user.parquet
 
 *.pkl
+
+/venv
+
+/data/Google Maps/
+
+data/Yelp/
