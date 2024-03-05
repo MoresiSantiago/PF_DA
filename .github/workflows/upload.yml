@@ -19,3 +19,4 @@ jobs:
           bucket: 'data-banks-bucket'
           sync_dir_from: '../data/Cloud_Upload'
           # exclude: '.*\.md$|\.gitignore$|\.git/.*$|\.github/.*$'
+          
