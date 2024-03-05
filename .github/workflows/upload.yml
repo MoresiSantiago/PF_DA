@@ -17,6 +17,5 @@ jobs:
         with:
           secrets: ${{ secrets.google_service_account_credentials }}
           bucket: 'data-banks-bucket'
-          sync_dir_from: '../data/Cloud_Upload'
+          sync_dir_from: '${{ github.workspace }}/data/Cloud_Upload/'
           # exclude: '.*\.md$|\.gitignore$|\.git/.*$|\.github/.*$'
-          
