@@ -1,4 +1,4 @@
-- name: Google Cloud Storage Bucket Sync (GCP,GCS)
+name: Google Cloud Storage Bucket Sync (GCP,GCS)
 uses: patrickwyler/gcs-bucket-sync-action@1.4
 
 on:
