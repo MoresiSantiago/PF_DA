@@ -20,7 +20,7 @@ def upload_folder_to_gcs(bucket_name, local_folder_path, destination_folder_name
 if __name__ == "__main__":
     # Replace these values with your own
     bucket_name = "data-banks-bucket"
-    local_folder_path = "C:/Users/Admin/Desktop/Datasets"
-    destination_folder_name = "datasets"
+    local_folder_path = "data/Cloud Upload/Yelp"
+    destination_folder_name = "Yelp"
 
     upload_folder_to_gcs(bucket_name, local_folder_path, destination_folder_name)
