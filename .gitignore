@@ -6,8 +6,10 @@ user.parquet
 
 /venv
 
-/data/Google Maps/
+data/Google_Maps/
 
 data/Yelp/
 
 ERtest.ipynb
+
+*.mwb
