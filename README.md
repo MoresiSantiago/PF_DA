@@ -69,31 +69,23 @@ Somos una consultora en ciencia de datos que busca ser reconocida por su  seguri
 
  - Desarrollar un modelo de machine learning con datos de Google Yelp, específicamente de la categoría de bancos para prever y aumentar las ventas en el sector bancario.
 
-## Resultados Preliminares del EDA
-- Análisis Exploratorio de Datos (EDA) aplicado al conjunto de datos. El objetivo principal es mejorar la comprensión de la información contenida en los archivos Parquet relacionados con negocios (business), consejos (tip), usuarios (user).
+## Análisis exploratoria de datos (EDA) YELP
 
-#### Objetivos del EDA
-- Top 10 Usuarios y Ciudades: Identificar los 10 usuarios y ciudades más activos basándonos en el número de reseñas y la presencia de bancos.
+### Introducción:
+En el corazón de la vasta información contenida en el conjunto de datos de Yelp, hemos realizado un exhaustivo Análisis Exploratorio de Datos (EDA) para revelar las dinámicas clave que definen la plataforma. A través de este viaje, hemos explorado la actividad de usuarios, la distribución de reseñas, y la presencia de negocios en diversas ciudades. Este análisis no solo arroja luz sobre los patrones emergentes, sino que también destaca las relaciones sociales entre los usuarios y las tendencias temporales que han evolucionado a lo largo de los años.
 
-![Texto alternativo](src/grafica_1.jpg)
-
-
-
-    El gráfico muestra los 10 bancos de EE. UU. con más reseñas. El banco con más reseñas es Bank of America Financial Center y el banco  menores reseñas es Navy Federal Credit Union
+### Conclusiones: 
+A través de estos objetivos, hemos desglosado el vasto conjunto de datos de Yelp para comprender mejor la interacción de los usuarios, las preferencias y las dinámicas subyacentes que definen la experiencia en la plataforma. Este análisis no solo proporciona insights valiosos, sino que también sienta las bases para futuras investigaciones y mejoras en la plataforma Yelp.
 
 
--Análisis de Ciudades: Evaluar la evolución de la incorporación de nuevos usuarios a lo largo del tiempo, analizando la variable 'yelping_since'.
-![Texto alternativo](src/grafica_2.jpg)
+## Análisis Exploratorio de Datos (EDA) - Google Maps
 
-    La ciudad con la mayor cantidad de bancos es Tucsoncon con 79 bancos, seguida de  Philadelphia con 73 bancos, Reno con 64 bancos y a partir de  NNew Orleans con las otras ciudades 
-    tienen menos de 30 bancos cada una
+### Introducción:
+Este análisis exploratorio de datos se enfoca en el conjunto de datos de Google Maps, centrándose en archivos Parquet relacionados con bancos, metadata y reseñas. El objetivo principal es proporcionar una comprensión detallada de la información contenida en estos archivos.
 
+### Conclusión:
+Este análisis exploratorio proporciona una visión completa de los datos de Google Maps, revelando patrones interesantes y tendencias en la información recopilada. Estos resultados son fundamentales para la toma de decisiones informadas y futuros análisis en el ámbito geoespacial y de reseñas de bancos.
     
--Nube de Palabras: Crear una nube de palabras a partir de los comentarios ('text') en los tips para visualizar términos frecuentes y destacados.
-![Texto alternativo](src/word_cloud.jpg)
-
-     Las palabras más frecuentes se muestran en letras más grandes y las menos frecuentes en letras más pequeñas.
-
 ## KPI's con sus objetivos asociados
 
 ### KPI: Tendencia de Opiniones Bancarias
