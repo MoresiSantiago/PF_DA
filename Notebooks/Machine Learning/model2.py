@@ -5,7 +5,6 @@ import warnings
 
 dfReviewsSnappy = pd.read_csv("data/Cloud Upload/Google Maps/reviews.csv")
 
-
 # Suprimir la advertencia sobre los nombres de las características
 warnings.filterwarnings("ignore", category=UserWarning)
 
