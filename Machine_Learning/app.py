@@ -17,7 +17,7 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("style/style.css")
+local_css("Machine_Learning/style/style.css")
 email_address ="emailcontact@gmail.com"
 
 lottie_file ="https://assets9.lottiefiles.com/packages/lf20_ggwq3ysg.json"
@@ -32,7 +32,7 @@ with st.container():
 
     image_column, text_column = st.columns((1,2))
     with image_column:
-        image = Image.open("images/Databankslogo.png")
+        image = Image.open("Machine_Learning/images/Databankslogo.png")
         st.image(image, use_column_width=True)
 
 # Primer Modelo: Predicción de nuevas sucursales de bancos:
@@ -67,7 +67,7 @@ with st.container():
 
     image_column, text_column = st.columns((1,2))
     with image_column:
-        image = Image.open("images/mapamodelo.png")
+        image = Image.open("Machine_Learning/images/mapamodelo.png")
         st.image(image, use_column_width=True)
 
         st.write("[Más sobre nosotros>](https://databanks.com/about/)")
@@ -128,7 +128,7 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        image = Image.open("images/apps.png")
+        image = Image.open("Machine_Learning/images/apps.png")
         st.image(image, use_column_width=True)
     with text_column:
         st.subheader("Modelos Machine Learning Bancarios")
@@ -144,7 +144,7 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        image = Image.open("images/automation.png")
+        image = Image.open("Machine_Learning/images/automation.png")
         st.image(image, use_column_width=True)
     with text_column:
         st.subheader("Automatización de procesos bancarios")
@@ -160,7 +160,7 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        image = Image.open("images/visualizacion.png")
+        image = Image.open("Machine_Learning/images/visualizacion.png")
         st.image(image, use_column_width=True)
     with text_column:
         st.subheader("Dashboards Bancarios")
