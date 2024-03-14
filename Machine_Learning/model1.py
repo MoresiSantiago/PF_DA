@@ -7,8 +7,8 @@ from sklearn.metrics import accuracy_score, classification_report
 
 pd.set_option('io.parquet.engine', 'fastparquet')
 # dfMetadata = pd.read_parquet("data/Cloud Upload/Google Maps/metadata-sitios.snappy.parquet")
-dfMetadata = pd.read_csv("../data/Cloud_Upload/Google_Maps/metadata/metadata.csv")
-dfBusinessSnappy = pd.read_csv("../data/Cloud_Upload/Yelp/business/business.csv")
+dfMetadata = pd.read_csv("data/Cloud_Upload/Google_Maps/metadata/metadata.csv")
+dfBusinessSnappy = pd.read_csv("data/Cloud_Upload/Yelp/business/business.csv")
 
 def generar_nuevos_bancos(num_new_banks, min_rating):
     # Accedo a los dataframes dfMetadata y dfBusinessSnappy
