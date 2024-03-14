@@ -3,7 +3,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 import warnings
 
-dfReviewsSnappy = pd.read_csv("../../data/Cloud_Upload/Google_Maps/reviews/reviews.csv")
+dfReviewsSnappy = pd.read_csv("../data/Cloud_Upload/Google_Maps/reviews/reviews.csv")
 
 # Suprimir la advertencia sobre los nombres de las características
 warnings.filterwarnings("ignore", category=UserWarning)
