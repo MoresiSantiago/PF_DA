@@ -13,3 +13,7 @@ data/Yelp/
 ERtest.ipynb
 
 *.mwb
+
+Machine_Learning/data/Google_Maps/
+
+Machine_Learning/data/Yelp/
